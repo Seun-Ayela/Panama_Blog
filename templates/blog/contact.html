@@ -1,0 +1,40 @@
+{% extends 'partials/base.html' %}
+{% block title %}Home Page{% endblock %}
+{% load crispy_forms_tags %}
+{% block content %}
+<div class="container">
+  <div class="row mt-5 pt-3">
+    <div class="col-md-10  offset-md-1 ">
+      <div class="card my-3 shadow">
+        <div class="card-body">
+          <h3 class="text-center">Contact Page</h3>
+          <hr>
+          <div class="alert alert-info">
+            We're here for you
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-sm">
+              <h4>Get answers</h4>
+              <p>Watch tutorials and read detailed articles in the Panama Blog Help Center</p>
+              <a href="#">Go to Help Center</a>
+            </div>
+            <div  class="col-sm">
+              <h4>Contact us</h4>
+              <p>Get Support by chat or schedule a call with a Customer care Expert</p>
+              <a href="#">Chat with Us</a>
+            </div>
+            <div class="col-sm">
+              <h4>Hire a pro</h4>
+              <p>Get help at any stage--from blog creation to online growth.</p>
+              <a href="#">Browse All Services</a>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
