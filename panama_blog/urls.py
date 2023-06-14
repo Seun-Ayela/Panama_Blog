@@ -32,3 +32,4 @@ if settings.DEBUG:
                           document_root=settings.MEDIA_ROOT)
 
 # gunicorn 'panama_blog.wsgi'
+# web: gunicorn panama_blog.wsgi --log-file -
