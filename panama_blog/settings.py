@@ -168,3 +168,5 @@ DATABASE_URL = "postgresql://postgres:pzRfnwuur9M43ckK0j4l@containers-us-west-56
 DATABASES = {
     "default": dj_database_url.config(default=DATABASE_URL, conn_max_age=1800),
 }
+
+CSRF_TRUSTED_ORIGINS = ["https://panamablog-production.up.railway.app"]
