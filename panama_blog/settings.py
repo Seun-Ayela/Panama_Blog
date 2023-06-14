@@ -29,7 +29,8 @@ SECRET_KEY = "django-insecure-#(k50gu9y_0rm&m+a-km9@gh)rwxh(a2%0t8&$jr5l-hv+f9-%
 # DEBUG = config('DEBUG', cast=bool)
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = ['panamablog-production.up.railway.app', 'localhost']
+ALLOWED_HOSTS = ['panamablog-production.up.railway.app', 'localhost']
 
 
 # Application definition

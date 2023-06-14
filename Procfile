@@ -1,0 +1,1 @@
+gunicorn 'panama_blog.wsgi'

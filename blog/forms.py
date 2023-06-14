@@ -13,12 +13,14 @@ class PostModelForm(forms.ModelForm):
         fields = ('title', 'content')
 
 
+# for the update form
 class PostUpdateForm(forms.ModelForm):
     class Meta:
         model = PostModel
         fields = ('title', 'content')
 
 
+# for the comment form
 class CommentForm(forms.ModelForm):
     # label='' removes the heading "content" in the comment section
     content = forms.CharField(label='', widget=forms.TextInput(
