@@ -1,1 +1,1 @@
-gunicorn 'panama_blog.wsgi'
+web: gunicorn panama_blog.wsgi --log-file -

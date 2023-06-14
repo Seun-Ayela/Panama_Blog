@@ -30,7 +30,7 @@ SECRET_KEY = "django-insecure-#(k50gu9y_0rm&m+a-km9@gh)rwxh(a2%0t8&$jr5l-hv+f9-%
 DEBUG = True
 
 # ALLOWED_HOSTS = ['panamablog-production.up.railway.app', 'localhost']
-ALLOWED_HOSTS = ['panamablog-production.up.railway.app', 'localhost']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -148,6 +148,7 @@ STATIC_ROOT = (BASE_DIR / 'asset')
 STATICFILES_DIRS = [
     BASE_DIR / 'static'
 ]
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
