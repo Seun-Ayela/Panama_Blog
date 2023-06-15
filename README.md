@@ -25,12 +25,12 @@ It also has a feature of editing profile information such as changing the profil
 It has a feature of “Forgot password” when clicked a mail containing a link will be sent to their email for authorization and that will enable the user to change their password in case they forget it.
 
 Installation
-To install and set up the Django Simple Library Project, follow these steps:
+To install and set up the Blog Application, follow these steps:
 
 1 Clone the repository: from your command line or terminal
 
 git clone https://github.com/Seun-Ayela/panama_blog.git
-Navigate to the project directory: from your command line or terminal cd simple_library
+Navigate to the project directory: from your command line or terminal cd panama_blog
 
 Create a virtual environment: from your command line or terminal
 
