@@ -27,15 +27,18 @@ Authors
 
 
 Introduction
+
 The Blog Application is a web-based application that is a safe place for user to put out general ideas and to get entertained. Great ideas can be achieved by writing it down.
 
-Key features of the Django Simple Library Project:
+Key features of the Django Blog Application:
+
 The blog app has an amazing backend in which all the data from Sign-up → Login → Blog-post are stored and can be retrieved at any time by the user.
 It has a delete and edit button that will enable users to delete any unwanted post or make corrections to an existing post.
 It also has a feature of editing profile information such as changing the profile picture from the default one to the picture of their choice.
 It has a feature of “Forgot password” when clicked a mail containing a link will be sent to their email for authorization and that will enable the user to change their password in case they forget it.
 
 Installation
+
 To install and set up the Blog Application, follow these steps:
 
 1 Clone the repository: from your command line or terminal
@@ -66,6 +69,7 @@ Start the development server: python manage.py runserver 8080
 Access the application at http://localhost:8080 in your browser.
 
 Usage
+
 Once the Blog application is set up, follow these steps to use it:
 
 Create an admin user: python manage.py createsuperuser
@@ -76,13 +80,16 @@ From the admin dashboard, you can perform the following actions: Signup, then Lo
 
 Manage Blog post: Add, edit, and delete blog post. Provide information such as Title and Blog Content.
 Manage Blog users: Login, update profile pics 
+
 Features
+
 The blog app has an amazing backend in which all the data from Sign-up → Login → Blog-post are stored and can be retrieved at any time by the user.
 It has a delete and edit button that will enable users to delete any unwanted post or make corrections to an existing post.
 It also has a feature of editing profile information such as changing the profile picture from the default one to the picture of their choice.
 It has a feature of “Forgot password” when clicked a mail containing a link will be sent to their email for authorization and that will enable the user to change their password in case they forget it.
 
 Contributing
+
 Contributions to the Blog Application are welcome! To contribute:
 
 Fork the repository.
@@ -96,9 +103,11 @@ the catalog/test/ directory contains all test modules implemented in the project
 python manage.py test You can also contribute to the test suite by adding new test cases or improving existing ones. Make sure to run the tests and ensure they pass before submitting a pull request.
 
 License
+
 This project is licensed under the MIT License. Public domain.
 
 Credits
+
 The Blog application utilizes the following technologies:
 
 Django: The web framework used to build the application.
@@ -106,9 +115,12 @@ Python: The programming language in which the project is developed.
 postgresql: to host databases in production for interacting with project.
 Railway: Server used for deployment.
 APIs and web services: enables communications and data exchange between different software systems.
+
 Support and Contact
+
 For any questions, issues, or support related to the Django Simple Library Project, please contact the project maintainer at seunayela@gmail.com. You can also open an issue on the project's GitHub repository for bug reports or feature requests.
 
 Authors
+
 Ayela Oluwaseun 
 https://panamablog-production.up.railway.app/
