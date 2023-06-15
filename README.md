@@ -4,16 +4,27 @@ A Blog Application system built with Django.
 Table of Contents
 
 Introduction
+
 Installation
+
 Usage
+
 Features
+
 Configuration
+
 Contributing
+
 Testing
+
 License
+
 Credits
+
 Support and Contact
+
 Authors
+
 
 Introduction
 The Blog Application is a web-based application that is a safe place for user to put out general ideas and to get entertained. Great ideas can be achieved by writing it down.
